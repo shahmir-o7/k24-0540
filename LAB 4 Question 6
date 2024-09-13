@@ -1,0 +1,30 @@
+#include <stdio.h>
+main () {
+
+int num1, num2;
+
+printf("Enter your first number\n");
+scanf("%d", &num1);
+
+printf("Enter your second number\n");
+scanf("%d", &num2);
+
+
+if (num1 > num2){
+	if (num1 > 100)
+	printf("First number is significantly larger!");
+	else 
+	printf("First number is larger!");
+}
+
+else if (num1 < num2){
+	if (num1 < 0)
+	printf("First number is smaller and negative!");
+	else 
+	printf("First number is smaller!");
+}
+
+else if (num1=num2){
+	printf("First numer is equal to second number!");
+}
+}
